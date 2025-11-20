@@ -1,14 +1,13 @@
 {
   "name": "plantass",
   "version": "0.0.0",
-  "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
-    "watch": "ng build --watch --configuration development",
-    "test": "ng test",
-    "serve:ssr:Plantass": "node dist/plantass/server/server.mjs"
-  },
+"scripts": {
+  "start": "ng serve",
+  "build": "ng build",
+  "build:ssr": "ng build && ng run plantass:server",
+  "serve:ssr": "node dist/plantass/server/main.server.mjs",
+  "test": "ng test"
+},
   "private": true,
   "dependencies": {
     "@angular/animations": "^18.0.0",

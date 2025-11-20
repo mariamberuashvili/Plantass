@@ -1,0 +1,16 @@
+.menu a {
+
+    margin: 10px;
+    border: 2px solid red;
+    background-color: #0b4ddb;
+    color: white;
+    font-size: 16px;
+
+}
+
+.menu a.activo {
+    background-color: rgb(17, 11, 175);
+   
+    border-color: rgb(17, 11, 175);
+    
+}

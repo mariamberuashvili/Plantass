@@ -1,0 +1,27 @@
+<div class="principal">
+    <h2>Registrar Nueva Planta</h2>
+    <form id="plantForm">
+      <label for="nombre">Nombre de Plantas:</label>
+      <input type="text" id="nombre" required>
+      <div class="error" id="errorNombre"></div>
+      
+      <label for="nombreCientifico">Nombre Científico:</label>
+      <input type="text" id="nombreCientifico" required>
+      <div class="error" id="errorNombreCientifico"></div>
+      
+      <label for="descripcion">Descripción:</label>
+      <textarea id="descripcion" rows="3" required></textarea>
+      <div class="error" id="errorDescripcion"></div>
+      
+      <label for="stock">Stock:</label>
+      <input type="number" id="stock" min="0">
+      
+      <button type="button" (click)="guardarPlanta()">Guardar Planta</button>
+    </form>
+  
+    <button (click)="listarPlantas()">Listar Plantas</button>
+    <button routerLink="/notfound">Not Found</button>
+    <div class="plant-list" id="plantList"></div>
+  </div>
+ 
+  
