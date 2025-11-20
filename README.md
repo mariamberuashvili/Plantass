@@ -22,7 +22,7 @@ Permite gestionar plantas con altas, consultas y detalles de cada una, ofreciend
 Clona el repositorio e instala dependencias:
 
 ```bash
-git clone <URL-DEL-REPOSITORIO>
+git clone <URL- https://github.com/mariamberuashvili/Plantass>
 cd plantass
 npm install
 
